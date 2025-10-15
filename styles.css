@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+body {
+    background-color: rgb(93, 118, 175);
+    color: #ffffff;
+    font-family: Montserrat, Futura, Calibri;
+    font-weight:800;
+    text-align: center;
+}
+
+#intro {
+    animation: intro 4.1s ease-in-out;
+
+}
+
+css@keyframes intro {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+img {
+    width:90%
+    margin-left:5%;
+    margin-right: 5%l
+    border-radius: 15px;
+    height: auto;
+}
+
+img:hover {
+    transform: scale(0.95)
+    cursor: pointer;
+    
+}
